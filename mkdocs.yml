@@ -1,0 +1,46 @@
+site_name: RP-Helpdesk Docs
+site_url: https://docs.rp-helpdesk.com/
+nav:
+    - Introduction: 
+        - 'Welcome': 'index.md'
+        - 'About': 'about.md'
+        - 'Our Blog Posts': 
+          - 'Power': 'power.md'
+    - Documentation:
+      - Ansible Documentation:
+        - 'What is Ansible?': 'ansible.md'
+        - Automated Test Environment: 
+          - 'Setup/Install Ansible': 'ansible-setup.md'
+          - 'Configure a Ansible playbook': 'ansible-playbook.md'
+          - 'Use a Ansible-playbook': 'ansible-use.md'
+      - Proxmox Documentation:
+        - 'What is Proxmox?': 'proxmox.md'
+        - 'Proxmox Errors': 'proxmox-errors.md'
+      - Docker Documentation:
+        - 'What is Docker?': 'docker.md'
+        - Portainer:
+          - 'What is Portainer?': 'portainer.md'
+          - 'Custom Docker-Compose': 'docker-customcompose.md'
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: red
+    accent: red
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+markdown_extensions:
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - attr_list:
+    - toc:
+        permalink: "#"
+        separator: "_"
+copyright: Copyright &copy; 2018 - 2022 RP-Helpdesk
+extra:
+  generator: false
