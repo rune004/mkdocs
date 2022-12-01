@@ -1,5 +1,24 @@
 site_name: RP-Helpdesk Docs
 site_url: https://docs.rp-helpdesk.com/
+repo_name: Rune004/RP-Helpdesk(MKDocs)
+repo_url: https://github.com/rune004/mkdocs
+palette: 
+
+
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+
+
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 nav:
     - Introduction: 
         - 'Welcome': 'index.md'
@@ -27,6 +46,8 @@ theme:
     scheme: slate
     primary: red
     accent: red
+    icon:
+      repo: fontawesome/brands/git-alt
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -44,3 +65,4 @@ markdown_extensions:
 copyright: Copyright &copy; 2018 - 2022 RP-Helpdesk
 extra:
   generator: false
+  

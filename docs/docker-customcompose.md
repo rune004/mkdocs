@@ -3,6 +3,10 @@
 ## Portainer Templates
 
 ### Seafile 
+Self-hosted onedrive.
+
+This can be used together with a Windows 10 application that will make seafile show up in the file explorer like onedrive does.
+
 ```
 version: '2.0'
 services:
@@ -50,6 +54,9 @@ networks:
 ```
 
 ### Vaultwarden 
+Self-hosted password manager.
+
+This can use all of bitwardens applications on IOS, Android, Windows, Mac, Chrome, Firefox, etc.
 ```
 version: '3.4'
 services:
@@ -65,6 +72,9 @@ services:
 ```
 
 ### Flamedashboard
+Self-hosted dashboard
+
+This can be used for quick access to all of your self-hosted services.
 ```
 version: '2.1'
 services:
