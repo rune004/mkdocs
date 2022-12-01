@@ -5,7 +5,7 @@ nav:
         - 'Welcome': 'index.md'
         - 'About': 'about.md'
         - 'Our Blog Posts': 
-          - 'Power': 'power.md'
+          - 'Coming Soon': '.'
     - Documentation:
       - Ansible Documentation:
         - 'What is Ansible?': 'ansible.md'
