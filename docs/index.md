@@ -1,11 +1,3 @@
-Title:   Welcome Page
-Summary: A brief description of what RP Docs is
-Authors: Christian Rune
-         Mathias
-Date:    November, 2022
-blank-value:
-base_url: https://docs.rp-helpdesk.com
-
 # Welcome To RP-Helpdesk Docs
 
 ---------------
@@ -23,7 +15,7 @@ base_url: https://docs.rp-helpdesk.com
 [Ansible Setup](/ansible-setup#Installation){ .md-button }
 
 ------------------
-![pic1](img/index.jpg)
+![pic1](img/logo3.png)
 
 **Learn more about the software and OS's we use.**
 ## Learn about
