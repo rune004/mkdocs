@@ -2,7 +2,7 @@
 
 ---------------
 
-![pic](img/Logo (Motto) larger.png)
+![pic](img/Logo-(Motto)-larger.png)
 
 **Here you can find the documentation that we have used to make our servers and services run.**
 
@@ -15,7 +15,7 @@
 [Ansible Setup](/ansible-setup#Installation){ .md-button }
 
 ------------------
-![pic1](/img/logo3.png)
+![pic1](img/logo3.png)
 
 **Learn more about the software and OS's we use.**
 ## Learn about
