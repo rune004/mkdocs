@@ -1,5 +1,7 @@
 # What is Ansible?
 
+![pic](img/ansible.png)
+
 Ansible® is an open source, command-line IT automation software application written in Python. 
 It can configure systems, deploy software, and orchestrate advanced workflows to support application deployment, 
 system updates, and more.
@@ -25,4 +27,3 @@ Below you will find a button, clicking it will take you to our guide on how to g
 a laptop running Windows 10, that has the Ubuntu 22.04 VM from the Microsoft Store installed and configured as the 
 Ansible Controller, that then controls an Proxmox Server with playbooks from the Ansible Controller.
 
-[Setup Ansible](ansible-setup.md){ .md-button }
