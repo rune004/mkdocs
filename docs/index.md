@@ -15,7 +15,7 @@
 [Ansible Setup](/ansible-setup#Installation){ .md-button }
 
 ------------------
-![pic1](img/logo3.png)
+![pic1](/img/logo3.png)
 
 **Learn more about the software and OS's we use.**
 ## Learn about
