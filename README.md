@@ -18,4 +18,4 @@ You may have to change values, passwords and usernames etc.
 
 We are running Proxmox as the "base" OS on our servers, only one server is running another OS (Unraid) and this server is used by the Proxmox Cluster for shared storage to enable high availability. 
 
-- [x](#1)
+- [x](https://github.com/rune004/mkdocs/issues/1)
