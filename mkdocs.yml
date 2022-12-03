@@ -2,12 +2,11 @@ site_name: RP-Helpdesk Docs
 site_url: https://rp-helpdesk.com/
 repo_name: Rune004/mkdocs
 repo_url: https://github.com/rune004/mkdocs/
+use_directory_urls: false
 nav:
     - Introduction: 
-        - 'Welcome To RPH': 'index.md'
-        - 'About RPH': 'about.md'
-        - 'Our Blog Posts': 
-          - 'Coming Soon': '.'
+        - Welcome To RPH: 'index.md'
+        - About RPH: 'about.md'
     - Documentation:
       - Ansible Documentation:
         - 'What is Ansible?': 'ansible.md'
@@ -23,9 +22,25 @@ nav:
         - Portainer:
           - 'What is Portainer?': 'portainer.md'
           - 'Custom Docker-Compose': 'docker-customcompose.md'
+    - Blog:
+      - Servers: 
+        - 'Power Efficient Home Server': 'power-efficient-home-server.md'
 theme:
   icon:
       repo: fontawesome/brands/gitkraken
+      admonition:
+        note: octicons/tag-16
+        abstract: octicons/checklist-16
+        info: octicons/info-16
+        tip: octicons/squirrel-16
+        success: octicons/check-16
+        question: octicons/question-16
+        warning: octicons/alert-16
+        failure: octicons/x-circle-16
+        danger: octicons/zap-16
+        bug: octicons/bug-16
+        example: octicons/beaker-16
+        quote: octicons/quote-16
   name: material
   palette:
     # Palette toggle for automatic mode
@@ -58,7 +73,10 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
 markdown_extensions:
+    - admonition
+    - pymdownx.details
     - pymdownx.superfences
+    - md_in_html
     - pymdownx.tabbed:
         alternate_style: true
     - pymdownx.tasklist:
@@ -76,5 +94,5 @@ extra:
 
     - icon: fontawesome/brands/linkedin
       link: https://twitter.com/squidfunk
-  
+
 
