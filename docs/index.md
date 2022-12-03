@@ -1,24 +1,16 @@
 # Welcome To RP-Helpdesk Docs
-
 ---------------
 
 ![pic](img/Logo-(Motto)-larger.png)
 
-**Here you can find the documentation that we have used to make our servers and services run.**
+!!! success "**Here you can find the documentation that we have used to make our servers and services run.**"
 
 ---------------
 ![pic2](img/logo2.png)
 
-**These guides are made for our own infrastructur, so they may not work for you.**
-## Guides 
-
-[Ansible Setup](/ansible-setup#Installation){ .md-button }
+!!! warning "**These guides are made for our own infrastructur, so they may not work for you.**"
 
 ------------------
 ![pic1](img/logo3.png)
 
-**Learn more about the software and OS's we use.**
-## Learn about
-[Docker](/docker#what_is_docker){ .md-button }
-[Proxmox](/proxmox#what_is_proxmox){ .md-button }
-[Portainer](/portainer#what_is_portainer){ .md-button }
+!!! info "**Learn more about the software and OS's we use.**"
