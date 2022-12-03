@@ -6,7 +6,7 @@ These are the error that I have found within Proxmox.
 
 ### Windows ISO Fail to boot
 
-!!! warning "Windows ISO Fail to boot"
+!!! failure "Windows ISO Fail to boot"
 
     This error seems to have something to do with, not having QEMU Guest Agent installed/enabled from the Proxmox VM wizard.
 
@@ -16,7 +16,7 @@ These are the error that I have found within Proxmox.
 
 ----------------------------
 ### Windows 10 Template Blue Screen
-!!! warning "Windows 10 Template Blue Screen"
+!!! failure "Windows 10 Template Blue Screen"
 
     This error has been “created” by making a VM, that runs an completely fresh installation of windows 10, without any updates or software installed. 
     
@@ -28,7 +28,7 @@ These are the error that I have found within Proxmox.
 
 ----------------------------
 ### Proxmox Virtual Environment 7.2-11 Live Migration
-!!! warning "Proxmox Virtual Environment 7.2-11 Live Migration"
+!!! failure "Proxmox Virtual Environment 7.2-11 Live Migration"
 
     This problem have been covered by Proxmox's own forum.
 
@@ -68,7 +68,7 @@ These are the error that I have found within Proxmox.
 ## VM Internet Access
 
 ### Tailscale VPN On Proxmox LXC Container
-!!! warning "Tailscale VPN On a Proxmox LXC Container"
+!!! failure "Tailscale VPN On a Proxmox LXC Container"
 
     This issue has been found when trying to use tailscale on a Proxmox LXC Container. 
 

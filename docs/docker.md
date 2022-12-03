@@ -1,6 +1,6 @@
 # What is Docker?
 
-!!! abstract "Docker Overview"
+!!! bug "Docker Overview"
 
     ## Docker overview
 
@@ -18,7 +18,7 @@
     * The container becomes the unit for distributing and testing your application.
     * When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
 
-!!! tips "What can I use Docker for?"
+!!! tip "What can I use Docker for?"
 
     ## What can I use Docker for?
 
