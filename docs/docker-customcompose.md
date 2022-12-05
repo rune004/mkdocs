@@ -1,5 +1,7 @@
 # Custom Docker-compose
 
+![pic](img/docker-compose.jpg)
+
 ## Portainer Templates
 
 ??? bug "Seafile"

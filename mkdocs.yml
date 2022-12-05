@@ -8,6 +8,11 @@ nav:
       - Introduction To RPH:
         - Welcome To RPH: 'index.md'
         - About RPH: 'about.md'
+        - What is? (Series): 
+          - What is Ansible?: 'ansible.md'
+          - What is Proxmox?: 'proxmox.md'
+          - What is Docker?: 'docker.md'
+          - What is Portainer?: 'portainer.md'
     - Documentation:
       - Ansible Documentation:
         - 'What is Ansible?': 'ansible.md'
@@ -20,8 +25,10 @@ nav:
         - 'Proxmox Errors': 'proxmox-errors.md'
       - Docker Documentation:
         - 'What is Docker?': 'docker.md'
+        - 'Setup Docker': 'portainer-setup.html#install-docker-ce'
         - Portainer:
           - 'What is Portainer?': 'portainer.md'
+          - 'Setup Portainer': 'portainer-setup.md'
           - 'Custom Docker-Compose': 'docker-customcompose.md'
     - Blog:
       - Servers: 

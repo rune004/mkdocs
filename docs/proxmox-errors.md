@@ -2,34 +2,37 @@
 # Proxmox Errors
 These are the error that I have found within Proxmox.
 
+![pic](img/proxmox-errors.jpg)
+
 ## VM Errors 
 
-### Windows ISO Fail to boot
-
-!!! failure "Windows ISO Fail to boot"
-
+??? failure "Windows ISO Fail to boot"
+    
+    ### Windows ISO Fail to boot
     This error seems to have something to do with, not having QEMU Guest Agent installed/enabled from the Proxmox VM wizard.
 
-!!! success "*Resolved by*"
+??? success "*Resolved by*"
 
     Install/enable QEMU Guest Agent in Proxmox VM wizard before booting the VM for the first time
 
 ----------------------------
-### Windows 10 Template Blue Screen
-!!! failure "Windows 10 Template Blue Screen"
 
+??? failure "Windows 10 Template Blue Screen"
+    
+    ### Windows 10 Template Blue Screen
     This error has been “created” by making a VM, that runs an completely fresh installation of windows 10, without any updates or software installed. 
     
     Then powering the VM down and making it to a Proxmox template. When it has been made into a template then remove the CD/DVD drive. 
 
-!!! success "*Resolved by*"
+??? success "*Resolved by*"
 
     If you don’t care about the CD/DVD drive, just leave it be. The missing drive is what is causing Windows to blue screen. If you have already remove the drive, just re-added it again but make sure it is the right ISO you pick.
 
 ----------------------------
-### Proxmox Virtual Environment 7.2-11 Live Migration
-!!! failure "Proxmox Virtual Environment 7.2-11 Live Migration"
 
+??? failure "Proxmox Virtual Environment 7.2-11 Live Migration"
+    
+    ### Proxmox Virtual Environment 7.2-11 Live Migration
     This problem have been covered by Proxmox's own forum.
 
     Xeon(R) Bronze 3106 <<--->> Xeon(R) CPU E5-2650 v2 kernel 5.15
@@ -44,7 +47,7 @@ These are the error that I have found within Proxmox.
 
     --> *VM freezes, requires full VM shutdown and power on*
 
-!!! success "*Resolved by*"
+??? success "*Resolved by*"
     
     Installing pve-kernel-5.19 repository
     ```
@@ -65,16 +68,19 @@ These are the error that I have found within Proxmox.
 
     -------------
 
+--------------------
+
 ## VM Internet Access
 
-### Tailscale VPN On Proxmox LXC Container
-!!! failure "Tailscale VPN On a Proxmox LXC Container"
 
+??? failure "Tailscale VPN On a Proxmox LXC Container"
+    
+    ### Tailscale VPN On Proxmox LXC Container
     This issue has been found when trying to use tailscale on a Proxmox LXC Container. 
 
     Tailscale can be installed without any problems, but when you try to run the `Sudo tailscale up` command it will return and error saying something along the lines of tailscale is not running try to.... and no matter what you try on the VM it will not be able to start tailscale.
 
-!!! success "*Resolved by*"
+??? success "*Resolved by*"
     
     This solution will fix any VPN you want to run such as Tailscale and OpenVPN
     ```
