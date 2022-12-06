@@ -33,6 +33,9 @@ nav:
     - Blog:
       - Servers: 
         - 'Power Efficient Home Server': 'power-efficient-home-server.md'
+    - Software:
+      - Our Software:
+        - 'Windows-Auto-Installer': 'windows-auto-installer.md'
 theme:
   icon:
       repo: fontawesome/brands/gitkraken
