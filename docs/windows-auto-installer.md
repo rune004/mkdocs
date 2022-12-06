@@ -1,7 +1,8 @@
 # Windows Auto Installer 
 
-[Download](https://github.com/rune004/Windows-Auto-Installer/archive/refs/tags/Alpha-1.0-USB.zip){ .md-button }
+![pic](img/windows.jpg)
 
+[Download](https://github.com/rune004/Windows-Auto-Installer/archive/refs/tags/Alpha-1.0-USB.zip){ .md-button }
 [Github](https://github.com/rune004/Windows-Auto-Installer/tree/Alpha-1.0-USB){ .md-button }
 
 ??? example "How to use it"

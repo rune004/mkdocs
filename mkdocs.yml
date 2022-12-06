@@ -8,11 +8,13 @@ nav:
       - Introduction To RPH:
         - Welcome To RPH: 'index.md'
         - About RPH: 'about.md'
-        - What is? (Series): 
-          - What is Ansible?: 'ansible.md'
-          - What is Proxmox?: 'proxmox.md'
-          - What is Docker?: 'docker.md'
-          - What is Portainer?: 'portainer.md'
+      - What is?: 
+        - What is Ansible?: 'ansible.md'
+        - What is Proxmox?: 'proxmox.md'
+        - What is Docker?: 'docker.md'
+        - What is Portainer?: 'portainer.md'
+      - Our Software:
+        - 'Windows Auto Installer': 'windows-auto-installer.md' 
     - Documentation:
       - Ansible Documentation:
         - 'What is Ansible?': 'ansible.md'
