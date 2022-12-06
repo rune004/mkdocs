@@ -30,7 +30,6 @@
 - [x] Proxmox
     * [x] What is Proxmox?
     * [x] Proxmox Errors 
-    * [ ] ...
 - [x] Docker 
     * [x] Portainer
     * [x] Docker-Compose
