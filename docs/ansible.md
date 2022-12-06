@@ -4,7 +4,7 @@
 
 
 
-??? example "Ansible"
+??? example "What is Ansible"
 
     ## What is Ansible?
 
@@ -33,7 +33,7 @@
 
 
 
-??? tip "Install Ansible"
+??? tip "How to Install Ansible"
 
     ## How to install Ansible?
 
