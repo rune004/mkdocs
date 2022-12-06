@@ -99,6 +99,42 @@
 
 ![ansible-ssh](img/Ansible-ssh.png)
 
+??? example "Make Ansible.cfg"
+    
+    If you can't see any config file set for Ansible when you enter:
+    ```
+    Ansible --version
+    ```
+
+    All you have to do is make a folder in `/etc`
+
+    You can do this with this command
+    ```
+    cd /etc
+
+    sudo mkdir ansible
+    ```
+
+    When you have made a ansible folder we can `cd` into it
+    ```
+    cd /etc/ansible
+    ```
+
+    In this folder we need to make a file named ansible.cfg
+    ```
+    sudo nano ansible.cfg
+    ```
+
+    When you get into the nano editer all you have to do is copy and paste the code from the link below or use this command.
+
+    ```
+    cd /etc/ansible
+    sudo wget https://gist.githubusercontent.com/alivx/2a4ca3e577ead4bd38d247c258e6513b/raw/fe2b9b1c7abc2b52cc6998525718c9a40c7e02a5/ansible.cfg
+    ```
+
+    [Github (Ansible.cfg)](https://gist.github.com/alivx/2a4ca3e577ead4bd38d247c258e6513b){ .md-button}
+
+
 ??? example "Modify Hosts"
 
     ### Modify Hosts
