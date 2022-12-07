@@ -6,7 +6,7 @@
 
 ![ansible+windows](img/Ansible-Get-Started-Windows.png)
 
-!!! warning "Configure templates"
+??? warning "Configure templates"
 
     ### Configure templates
 
@@ -29,7 +29,7 @@
 ----------------------
 
 
-!!! info "Understand the variables"
+??? info "Understand the variables"
 
     ### Understand the variables
 
@@ -48,7 +48,7 @@
     state | The State The VM Will Be Put Into After Cloning (Can also be present if you don't want more then one, can also be skipped if none is needed) |
 
 
-!!! warning "Set your variable"
+??? warning "Set your variable"
 
     ### Set Your variables
     ```
@@ -74,7 +74,7 @@
             state: "started" # The State The VM Will Be Put Into After Cloning (Can also be present if you don't want more then one, can also be skipped if none is needed)
     ```
 
-!!! info "What your variables a used for"
+??? info "What your variables a used for"
 
     ### What your variables a used for 
     The first section is for cloning the VM.
@@ -110,7 +110,9 @@
         seconds: "{{ pause }}"
     ```
 
-!!! success "Fully made Playbook for Windows Test Environment"
+--------------------------------
+
+??? success "Fully made Playbook for Windows Test Environment"
 
     ### Fully made Playbook for Windows Test Environment
     Please note:
@@ -266,7 +268,7 @@
 
 ![proxmox+ansible](img/Ansible-Proxmox.png)
 
-!!! warning "Set Your Variables"
+??? warning "Set Your Variables"
 
     ### Set Your Variables
     Variables | Functions | 
@@ -292,7 +294,7 @@
     description | Sets the description for the LXC Container |
     features | Setup extra arguments |
 
-!!! success "Fully made playbook for LXC Container"
+??? success "Fully made playbook for LXC Container"
 
     ### Fully made playbook for LXC Container
     Please note:

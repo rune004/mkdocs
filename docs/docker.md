@@ -1,12 +1,14 @@
 # What is Docker?
 
-!!! abstract "Docker Overview"
+![pic](img/docker.png)
+
+??? bug "Docker Overview"
 
     ## Docker overview
 
     Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-!!! info "The Docker platform"
+??? info "The Docker platform"
 
     ## The Docker platform
 
@@ -18,7 +20,7 @@
     * The container becomes the unit for distributing and testing your application.
     * When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
 
-!!! tips "What can I use Docker for?"
+??? tip "What can I use Docker for?"
 
     ## What can I use Docker for?
 

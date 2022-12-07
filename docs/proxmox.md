@@ -1,6 +1,8 @@
 # What is Proxmox?
 
-!!! info "Proxmox VE"
+![pic](img/proxmox.png)
+
+??? info "Proxmox VE"
 
     Proxmox VE is a complete opensource server virtualization management solution. It offers the ability to manage virtual server (VPS) technology with the Linux OpenVZ and KVM technologies. Proxmox VE offers a web interface accessible after installation on your server which makes management easy, typically needing only a few clicks.
 
@@ -8,7 +10,7 @@
 
 ## Proxmox VE Features
 
-!!! abstract "Management"
+??? abstract "Management"
 
     ### Management
     Proxmox VE offers a simple web based management interface which is accessible after intstallation on the server. There is no need to install any additional tools or additional management nodes or external database. The management is done through the web interface based on a javascript framework and allows the administrator to control all the features.
@@ -23,7 +25,7 @@
     * Handles thousands of VMs with Search capability
     * Role based user and permission management.
 
-!!! abstract "Flexible Storage"
+??? abstract "Flexible Storage"
 
     ### Flexible Storage
 
@@ -41,7 +43,7 @@
     * LVM Group
     * Director ( storage on existing file system )
  
-!!! tips "Networking"
+??? tips "Networking"
 
     ### Networking
 
@@ -49,7 +51,7 @@
 
     Proxmox VE supports VLANS , bonding and network aggregations which allows you to build complex flexible virtual networks for the hosts leveraging the full power of the Linux network stack.
 
-!!! abstract "Backup & Restore"
+??? abstract "Backup & Restore"
 
     ### Backup & Restore
 
@@ -64,7 +66,7 @@
     * command line interface available
     * Monitoring via GUI
 
-!!! info "Live Migration & High Availability Cluster"
+??? info "Live Migration & High Availability Cluster"
 
     ### Live Migration & High Availability Cluster
 

@@ -1,8 +1,10 @@
 # Custom Docker-compose
 
+![pic](img/docker-compose.jpg)
+
 ## Portainer Templates
 
-!!! abstract "Seafile"
+??? bug "Seafile"
 
     ### Seafile 
     Self-hosted onedrive.
@@ -55,7 +57,7 @@
       seafile-net:
     ```
 
-!!! abstract "Vaultwarden"
+??? bug "Vaultwarden"
 
     ### Vaultwarden 
     Self-hosted password manager.
@@ -75,7 +77,7 @@
           - 17881:80
     ```
 
-!!! abstract "Flamedashboard"
+??? bug "Flamedashboard"
 
     ### Flamedashboard
     Self-hosted dashboard
@@ -96,7 +98,7 @@
         restart: unless-stopped
     ```
 
-!!! abstract "Vikunja"
+??? bug "Vikunja"
 
     ### Vikunja
     Self-hosted to do list manager

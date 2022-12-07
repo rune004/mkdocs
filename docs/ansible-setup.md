@@ -1,12 +1,12 @@
 # Setup/Install Ansible
 
-!!! info
+??? info "Introduction"
 
     *This is how I automated the deployment of a test environment, with 2 Windows Servers VMs as DC controllers and 3 Windows 10 VMs as client. All 3 clients have been sign into the Windows AD, and so have both the Windows Servers.*
 
 ![ansible](img/ansible-ubuntu.png)
 
-!!! warning
+??? warning "This Was Made for..."
 
     *This was made for and deployed onto a Proxmox Server with ansible running on a Ubuntu VM from my Windows laptop as controller.*
 
@@ -14,16 +14,16 @@
 
 --------------------
 
-!!! example "Install sudo"
+??? example "Install sudo"
 
     ### Install sudo
     This will be needed later for sudo nano.
     ```
     apt-get install sudo 
     ```
----------------
 
-!!! example "Install curl"
+
+??? example "Install curl"
 
     ### Install curl
     This will be needed later to easier download the playbooks from github and install TailScale VPN
@@ -35,9 +35,9 @@
     sudo apt-get install curl
     ```
 
-----------------
 
-!!! example "Install pip"
+
+??? example "Install pip"
 
     ### Install pip
     This will be needed later to download/install ansible and it's modules and also update blowfish.
@@ -45,9 +45,9 @@
     sudo apt-get install python3 python3-pip -y
     ```
 
-----------------
 
-!!! example "Install Ansible"
+
+??? example "Install Ansible"
 
     ### Install Ansible
     Install Ansible and make sure the everything is as it should.
@@ -63,7 +63,7 @@
 
 ## Prep Proxmox Server
 
-!!! example "Install Proxmoxer"
+??? example "Install Proxmoxer"
 
     ### Install Proxmoxer
     This will be needed to deploy VMs via Ansible on the Proxmox server.
@@ -81,9 +81,9 @@
     pip install openssh_wrapper
     ```
 
--------------------
 
-!!! example "Update Blowfish"
+
+??? example "Update Blowfish"
 
     ### Update Blowfish
     Removes a warning when using ssh of Blowfish being deprecated. 
@@ -99,7 +99,43 @@
 
 ![ansible-ssh](img/Ansible-ssh.png)
 
-!!! example "Modify Hosts"
+??? example "Make Ansible.cfg"
+    
+    If you can't see any config file set for Ansible when you enter:
+    ```
+    Ansible --version
+    ```
+
+    All you have to do is make a folder in `/etc`
+
+    You can do this with this command
+    ```
+    cd /etc
+
+    sudo mkdir ansible
+    ```
+
+    When you have made a ansible folder we can `cd` into it
+    ```
+    cd /etc/ansible
+    ```
+
+    In this folder we need to make a file named ansible.cfg
+    ```
+    sudo nano ansible.cfg
+    ```
+
+    When you get into the nano editer all you have to do is copy and paste the code from the link below or use this command.
+
+    ```
+    cd /etc/ansible
+    sudo wget https://gist.githubusercontent.com/alivx/2a4ca3e577ead4bd38d247c258e6513b/raw/fe2b9b1c7abc2b52cc6998525718c9a40c7e02a5/ansible.cfg
+    ```
+
+    [Github (Ansible.cfg)](https://gist.github.com/alivx/2a4ca3e577ead4bd38d247c258e6513b){ .md-button}
+
+
+??? example "Modify Hosts"
 
     ### Modify Hosts
     After installing Ansible, the file /etc/hosts file is created automatically. 
@@ -114,9 +150,9 @@
     192.168.100.119
     ```
 
----------------------
 
-!!! example "Modify Ansible.cfg"
+
+??? example "Modify Ansible.cfg"
 
     ### Modify Ansible.cfg 
     Find and change the following settings in 
@@ -137,9 +173,9 @@
     become_ask_pass=False
     ```
 
----------------------
 
-!!! example "Allow root login"
+
+??? example "Allow root login"
 
     ### Allow root login
     (login to all nodes and do the following)
@@ -164,9 +200,9 @@
     [ ok ] Restarting ssh (via systemctl): ssh.service.
     ```
 
---------------------
 
-!!! example "Push SSH key to nodes"
+
+??? example "Push SSH key to nodes"
 
     ### Push SSH key to nodes
     This is done so that Ansible can use the SSH key to sign in as a user
@@ -174,9 +210,9 @@
     ssh-copy-id -i ~/.ssh/id_rsa.pub your_username@192.168.100.118
     ```
 
------------------------
 
-!!! info "References"
+
+??? info "References"
 
     ## References 
 
