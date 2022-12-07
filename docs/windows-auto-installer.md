@@ -2,24 +2,41 @@
 
 ![pic](img/windows.jpg)
 
-[Download](https://github.com/rune004/Windows-Auto-Installer/archive/refs/tags/Alpha-1.0-USB.zip){ .md-button }
-[Github](https://github.com/rune004/Windows-Auto-Installer/tree/Alpha-1.0-USB){ .md-button }
+[Download](https://github.com/rune004/Windows-Auto-Installer/archive/refs/tags/Alpha-1.2-USB.zip){ .md-button }
+[Github](https://github.com/rune004/Windows-Auto-Installer/releases/tag/Alpha-1.2-USB){ .md-button }
 
-??? example "How to use it"
+??? example "How to use it?"
 
-    ## Use
+    ## How to use it?
 
     * Download the latest release for USB.
     * Move the downloaded zip file to a USB.
     * Copy the zip file to "target" machine.
 
-    -> You have to manuelly download WordMat and put it into the Exe folder and rename it to "WordMat"
+    -> You have to manuelly download WordMat and put it into the Exe folder and rename it to "WordMat.exe"
+
+    -> You have to manuelly download Papercut and put it into the Exe folder and rename it to "Papercut.exe"
+
+    -> You have to manuelly download AppWriter and put it into the Exe folder and rename it to "AppWriter.exe"
 
     * Unzip on the desktop (The only way it will work for now)
     * Open the folder on the desktop 
     * Run the WAI.bat
 
-??? "How to modify it for my use"
+    ## Easy way to use it
+
+    * "Pre-download" Wordmat, Papercut and AppWriter
+
+    * Unzip the folder
+
+    * Move Wordmat, Papercut and AppWriter into the Exe folder
+
+    * Zip the folder back up (I recommend zipping it again to avoid running it on the USB drive. This will not work)
+
+    * Move the zip folder to the USB ready for use
+ 
+
+??? "How to modify it for my use?"
 
     ## Modify
 
