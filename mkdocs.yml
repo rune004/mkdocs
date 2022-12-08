@@ -33,13 +33,20 @@ nav:
           - 'Setup Portainer': 'portainer-setup.md'
           - 'Custom Docker-Compose': 'docker-customcompose.md'
       - Unraid Documentation:
-          - 'What is Unraid': 'docker.md'
+        - 'What is Unraid': 'unraid.md'
+        - Unraid Getting Started:
+          - 'Cloudflare Tunnel': 'unraid-cloudflared.md'  
     - Blog:
       - Servers: 
         - 'Power Efficient Home Server': 'power-efficient-home-server.md'
     - Software:
       - Our Software:
         - 'Windows Auto Installer': 'windows-auto-installer.md'
+      - Software we recommend: 
+        - 'Self-Hosted Vaultwarden': 'docker-customcompose.html#vaultwarden'
+        - 'Self-Hosted Seafile': 'docker-customcompose.html#seafile'
+        - 'Self-Hosted Vikunja': 'docker-customcompose.html#vikunja'
+        - 'Self-Hosted Flamedashboard': 'docker-customcompose.html#flamedashboard' 
 theme:
   icon:
       repo: fontawesome/brands/gitkraken
