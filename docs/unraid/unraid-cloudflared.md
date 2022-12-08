@@ -1,6 +1,6 @@
 # Cloudflare Tunnel
 
-![pic](img/cloudflared.png)
+![pic](../img/cloudflared.png)
 
 ??? info "What is Argo tunnels?"
 
@@ -143,10 +143,10 @@
 
     Type | Name | Value | TTL | Status |
     -----|------|-------|-----|--------|
-    Cname | @ | UUID.cfargotunnel.com | Automatic | ![pic](img/status.png){ width="50" } |
-    Cname | plex | @ | Automatic | ![pic](img/status.png){ width="50" } |
-    Cname | portainer | @ | Automatic | ![pic](img/status.png){ width="50" } |
-    Cname | radarr | @ | Automatic | ![pic](img/status.png){ width="50" } |
-    Cname | sonarr | @ | Automatic | ![pic](img/status.png){ width="50" } |
+    Cname | @ | UUID.cfargotunnel.com | Automatic | ![pic](../img/status.png){ width="50" } |
+    Cname | plex | @ | Automatic | ![pic](../img/status.png){ width="50" } |
+    Cname | portainer | @ | Automatic | ![pic](../img/status.png){ width="50" } |
+    Cname | radarr | @ | Automatic | ![pic](../img/status.png){ width="50" } |
+    Cname | sonarr | @ | Automatic | ![pic](../img/status.png){ width="50" } |
 
     You should now be able to access all of your apps without needed a port forward!

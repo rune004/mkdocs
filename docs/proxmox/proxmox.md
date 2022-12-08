@@ -1,6 +1,6 @@
 # What is Proxmox?
 
-![pic](img/proxmox.png)
+![pic](../img/proxmox.png)
 
 ??? info "Proxmox VE"
 

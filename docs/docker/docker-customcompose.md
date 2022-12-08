@@ -1,6 +1,6 @@
 # Custom Docker-compose
 
-![pic](img/docker-compose.jpg)
+![pic](../img/docker-compose.jpg)
 
 ## Portainer Templates
 

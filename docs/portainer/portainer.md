@@ -1,10 +1,14 @@
 # What is Portainer?
 
-![pic](img/portainer.png)
+![pic](../img/portainer.png)
 
 ??? info "Portainer"
 
-    Portainer is a lightweight management UI which allows you to easily manage your different Docker environments (Docker hosts or Swarm clusters). Portainer is meant to be as simple to deploy as it is to use. It consists of a single container that can run on any Docker engine (can be deployed as Linux container or a Windows native container, supports other platforms too). Portainer allows you to manage all your Docker resources (containers, images, volumes, networks and more) ! It is compatible with the standalone Docker engine and with Docker Swarm mode.
+    Portainer is a lightweight management UI which allows you to easily manage your different Docker environments (Docker hosts or Swarm clusters). Portainer is meant to be as simple to deploy as it is to use. 
+    
+    It consists of a single container that can run on any Docker engine (can be deployed as Linux container or a Windows native container, supports other platforms too). 
+    
+    Portainer allows you to manage all your Docker resources (containers, images, volumes, networks and more) ! It is compatible with the standalone Docker engine and with Docker Swarm mode.
 
 ## Top Features
 
@@ -12,13 +16,19 @@
 
     ### Authentication
 
-    Portainer supports three different methods for user authentications. The first is the internal method, where the user management is handled by Portainer and stored in the Portainer data folder. The second method is LDAP, where the users are managed by an external LDAP server, such as ActiveDirectory. The only drawback that I can see for the LDAP authentication is that it cannot be configured using environment variables. The final authentication method is to use OAuth to perform the authentication. (This feature requires purchasing one of the paid extensions.)
+    Portainer supports three different methods for user authentications. The first is the internal method, where the user management is handled by Portainer and stored in the Portainer data folder. 
+    
+    The second method is LDAP, where the users are managed by an external LDAP server, such as ActiveDirectory. The only drawback that I can see for the LDAP authentication is that it cannot be configured using environment variables. 
+    
+    The final authentication method is to use OAuth to perform the authentication. (This feature requires purchasing one of the paid extensions.)
 
 ??? tips "Manage multiple clusters"
 
     ### Manage multiple clusters (endpoints)
 
-    As shown in the image below, Portainer supports managing multiple Docker Swarm clusters (called endpoints) using its user interface. This feature is very helpful in case you would like to manage clusters for different environments (such as testing, staging, and production) in a single user interface.
+    As shown in the image below, Portainer supports managing multiple Docker Swarm clusters (called endpoints) using its user interface. 
+    
+    This feature is very helpful in case you would like to manage clusters for different environments (such as testing, staging, and production) in a single user interface.
 
 ??? abstract "Template"
 
@@ -36,7 +46,9 @@
 
     Another important feature provided by Portainer is the ability to view, interact, and manage Docker Swarm resources such as Swarm service, Docker networks, Swarm stacks, containers, and Docker images.
 
-    Portainer allows the end user to view these resources and interact with them in a way that is easy, intuitive, and simple. As a result, the end user does not need to connect to the Swarm clusters and move from one node to another to validate and check the services and the containers. For instance, the end user can list all the services deployed to a given cluster, update the configuration items of these services, and stop and start the services as needed from the web interface.
+    Portainer allows the end user to view these resources and interact with them in a way that is easy, intuitive, and simple. As a result, the end user does not need to connect to the Swarm clusters and move from one node to another to validate and check the services and the containers. 
+    
+    For instance, the end user can list all the services deployed to a given cluster, update the configuration items of these services, and stop and start the services as needed from the web interface.
 
 ??? tips "Perform Actions On Containers"
 
@@ -44,7 +56,9 @@
 
     This feature is highly related to the previous one, but since the actions that can be performed on the containers are super important and helpful, I want to highlight these features.
 
-    Usually in Docker Swarm clusters, if an engineer would like to inspect a given container, check the container logs, or connect to the shell inside the Docker container, they need to perform the following actions. First, connect to a manager node. Then check where are the containers of the service are deployed (in which worker node). After that, connect to the worker node and perform the action needed on the container.
+    Usually in Docker Swarm clusters, if an engineer would like to inspect a given container, check the container logs, or connect to the shell inside the Docker container, they need to perform the following actions. 
+    
+    First, connect to a manager node. Then check where are the containers of the service are deployed (in which worker node). After that, connect to the worker node and perform the action needed on the container.
 
     All these actions are not needed when hosting Portainer. The same goal can be achieved directly from the web interface, and there is no need to connect to any cluster node.
 
@@ -58,9 +72,13 @@
 
     ### Registry Manager extension
 
-    This plugin extends Portainer and provides the end users with the capability to browse the defined external Docker registries and manage their resources. Once the plugin is installed and enabled, users are able to browse the registries, explore repositories and Docker images, manipulate the tags that are attached to the repositories and images, add new tags, retag an image, and delete existing tags.
+    This plugin extends Portainer and provides the end users with the capability to browse the defined external Docker registries and manage their resources. 
+    
+    Once the plugin is installed and enabled, users are able to browse the registries, explore repositories and Docker images, manipulate the tags that are attached to the repositories and images, add new tags, retag an image, and delete existing tags.
 
-    The Registry Manager plugin has a simple and intuitive GUI that makes managing the Docker registry and the Swarm clusters easier and can be done from a single interface. On the other hand, there is still room for improvement in the plugin. For instance, the plugin does not support automating the Docker registry clean-up and the removal of old and unneeded Docker images. This feature is very important if the Docker registry is used in the development process and engineers are building Docker images from the feature branches of the applications. In that case, it would be nice to have a feature in the plugin to remove all images that belong to the feature branches after 30 days.
+    The Registry Manager plugin has a simple and intuitive GUI that makes managing the Docker registry and the Swarm clusters easier and can be done from a single interface. On the other hand, there is still room for improvement in the plugin. For instance, the plugin does not support automating the Docker registry clean-up and the removal of old and unneeded Docker images. 
+    
+    This feature is very important if the Docker registry is used in the development process and engineers are building Docker images from the feature branches of the applications. In that case, it would be nice to have a feature in the plugin to remove all images that belong to the feature branches after 30 days.
 
 ??? danger "Role-Based Access Control extension"
 

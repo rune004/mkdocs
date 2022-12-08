@@ -15,7 +15,7 @@
 
     Older systems might be cheaper, but your savings will probably go towards paying the increased utility bill, even though older CPUs might have the same nominal TDP than the newer ones,they’re much less efficient at idle and might not support the power efficient C-States that the newer CPUs support.
 
-![pic](img/PEHSP1.png) ![pic](img/PEHSP2.png)
+![pic](../img/PEHSP1.png) ![pic](../img/PEHSP2.png)
 
 !!! example "Newer or older hardware?"
 
@@ -27,7 +27,7 @@
 
 Well, when it comes to Intel vs. AMD, Intel systems tend to win When it comes to budget-ish systems, Since they tend to consume less than equivalent AMD Ryzen machines.
 
-![pic](img/PEHSP3.png)
+![pic](../img/PEHSP3.png)
 
 Ryzen CPUs also still seem to suffer from the idle freeze bug on Linux, Which can only be fixed reilably by disabling the power efficient C-states, Which is kind of counter-intuitive, That being said, you can still build a pretty power efficient system with a Ryzen CPU, And some users report as little as 7W power consumption with a 4350G. 
 
@@ -35,15 +35,15 @@ One more thing I want to mention is that the TDP spec means absolutely nothing f
 
 Despite consuming upwards of 100W under load, Many modern processors can still enter a power-efficient idle state In which they sip less than 1W.
 
-![pic](img/PEHSP4.png)
+![pic](../img/PEHSP4.png)
 
 That also applies to the T-Series Intel CPUs These are pretty much the same chips as the non-T models, just capped to a smaller TDP.
 
-![pic](img/PEHSP5.png)
+![pic](../img/PEHSP5.png)
 
 This has no effect on the idle power consumption, so don’t pay more money for a T-series CPU because of the supposed power efficiency Since your server will most likely be idling most of the time,at least compared to a desktop PC.
 
-![pic](img/PEHSP6.png) ![pic](img/PEHSP7.png)
+![pic](../img/PEHSP6.png) ![pic](../img/PEHSP7.png)
 
 The idle draw is exactly the figure we’re interested in and it can vary wildly depending on your motherboard, PCIe devices, power supply, and so on. 
 
@@ -61,10 +61,10 @@ You’ll rarely find more than one SATA or M.2 slot, and PCIe is also usually ou
 
 These machines should still have plenty of power for Virtualization, Docker, Kubernetes, Proxmox, or even running a media server or a Home Assistant Instance But they’re probably not the best choice for a NAS since they lack expansion.
 
-![pic](img/PEHSP8.png)
+![pic](../img/PEHSP8.png)
 
 ## miniITX Motherboards
 
 If you want your home server to be a bit more capable, The next option is a desktop CPU and a miniITX motherboard MiniITX motherboards tend to have less ports and features than their ATX counterparts, and because of that they usually consume less power You might think that the difference between a miniITX motherboard and a full ATX mobo with the same CPU is negligible, Aaaand you’d be wrong.
 
-![pic](img/PEHSP9.png) ![pic](img/PEHSP10.png)
+![pic](../img/PEHSP9.png) ![pic](../img/PEHSP10.png)

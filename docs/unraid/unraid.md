@@ -1,6 +1,6 @@
 # What is Unraid?
 
-![pic](img/unraid.png)
+![pic](../img/unraid.png)
 
 ??? info "Network Attached Storage (NAS) server"
 

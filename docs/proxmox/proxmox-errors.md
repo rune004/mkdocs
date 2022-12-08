@@ -2,7 +2,7 @@
 # Proxmox Errors
 These are the error that I have found within Proxmox.
 
-![pic](img/proxmox-errors.jpg)
+![pic](../img/proxmox-errors.jpg)
 
 ## VM Errors 
 

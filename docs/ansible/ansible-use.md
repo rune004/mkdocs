@@ -1,6 +1,6 @@
 # Use a Ansible-playbook
 
-![ansible](img/ansible.png)
+![ansible](../img/ansible.png)
 
 ??? example "Find the right folder"
 

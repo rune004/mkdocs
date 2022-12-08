@@ -1,6 +1,6 @@
 # What is Ansible?
 
-![pic](img/ansible.png)
+![pic](../img/ansible.png)
 
 
 

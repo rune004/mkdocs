@@ -1,6 +1,6 @@
 # What is Docker?
 
-![pic](img/docker.png)
+![pic](../img/docker.png)
 
 ??? bug "Docker Overview"
 

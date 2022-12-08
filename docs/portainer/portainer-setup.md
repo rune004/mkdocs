@@ -1,6 +1,6 @@
 # Setup Portainer/Docker On Debain 11
 
-![pic](img/debian-11-bullseye.png)
+![pic](../img/debian-11-bullseye.png)
 
 ??? warning "Prerequisites"
 
@@ -164,15 +164,15 @@
     ## Access Portainer UI
     Now, open your web browser and access the Portainer UI using the URL http://your-server-ip:9000. You should see the following page:
 
-    ![pic](img/portainer-setup-1.png)
+    ![pic](../img/portainer-setup-1.png)
 
     Set your admin user and password and click on the Create user button. You will be asked to select the Docker environment that you want to manage:
 
-    ![pic](img/portainer-setup-2.png)
+    ![pic](../img/portainer-setup-2.png)
 
     Select the local environment and click on the Connect button. You should see the Portainer UI on the following page:
 
-    ![pic](img/portainer-setup-3.png)
+    ![pic](../img/portainer-setup-3.png)
 
 ??? succes "Conclusion"
 

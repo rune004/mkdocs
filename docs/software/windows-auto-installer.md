@@ -1,6 +1,6 @@
 # Windows Auto Installer 
 
-![pic](img/windows.jpg)
+![pic](../img/windows.jpg)
 
 [Download](https://github.com/rune004/Windows-Auto-Installer/archive/refs/tags/Alpha-1.2-USB.zip){ .md-button }
 [Github](https://github.com/rune004/Windows-Auto-Installer/releases/tag/Alpha-1.2-USB){ .md-button }

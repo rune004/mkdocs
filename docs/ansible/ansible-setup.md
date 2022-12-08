@@ -1,6 +1,6 @@
 # Setup/Install Ansible
 
-![ansible](img/ansible-ubuntu.png)
+![ansible](../img/ansible-ubuntu.png)
 
 ??? info "Introduction"
 
@@ -97,7 +97,7 @@
 
 ## Configuration of Ansible controller
 
-![ansible-ssh](img/Ansible-ssh.png)
+![ansible-ssh](../img/Ansible-ssh.png)
 
 ??? example "Make Ansible.cfg"
     
