@@ -1,10 +1,10 @@
 # Setup/Install Ansible
 
+![ansible](img/ansible-ubuntu.png)
+
 ??? info "Introduction"
 
     *This is how I automated the deployment of a test environment, with 2 Windows Servers VMs as DC controllers and 3 Windows 10 VMs as client. All 3 clients have been sign into the Windows AD, and so have both the Windows Servers.*
-
-![ansible](img/ansible-ubuntu.png)
 
 ??? warning "This Was Made for..."
 

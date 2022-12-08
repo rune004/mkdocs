@@ -13,6 +13,7 @@ nav:
         - What is Proxmox?: 'proxmox.md'
         - What is Docker?: 'docker.md'
         - What is Portainer?: 'portainer.md'
+        - What is Unraid?: 'unraid.md'
       - Our Software:
         - 'Windows Auto Installer': 'windows-auto-installer.md' 
     - Documentation:
@@ -37,8 +38,11 @@ nav:
         - Unraid Getting Started:
           - 'Cloudflare Tunnel': 'unraid-cloudflared.md'  
     - Blog:
+      - 'Blog Overview': 'blog.md'
       - Servers: 
         - 'Power Efficient Home Server': 'power-efficient-home-server.md'
+      - Configure:
+        - 'Setup Local Internet Security': 'setup-local-internet-security.md'
     - Software:
       - Our Software:
         - 'Windows Auto Installer': 'windows-auto-installer.md'

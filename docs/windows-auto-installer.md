@@ -5,12 +5,26 @@
 [Download](https://github.com/rune004/Windows-Auto-Installer/archive/refs/tags/Alpha-1.2-USB.zip){ .md-button }
 [Github](https://github.com/rune004/Windows-Auto-Installer/releases/tag/Alpha-1.2-USB){ .md-button }
 
+??? info "Use-case"
+  
+    This batch script has been made to make it easy to keep track of, and installing software on a freshly re-installed Windows pc.
+
+    This is done by using the Exe folder to contain all setup.exe and the WAI.bat to run the installation of these setup.exe 
+
+    This will not automated the individual setup.exe 
+
+    It will automated the "running" of the next setup.exe when you have finshed a installation. This can be helpfully if you have to do helpdesk tasks while installing software.   
+
+
+
 ??? example "How to use it?"
 
     ## How to use it?
 
     * Download the latest release for USB.
+
     * Move the downloaded zip file to a USB.
+    
     * Copy the zip file to "target" machine.
 
     -> You have to manuelly download WordMat and put it into the Exe folder and rename it to "WordMat.exe"

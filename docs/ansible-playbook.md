@@ -1,10 +1,10 @@
 # Configure a Ansible Playbook
 
-[Our Pre-made Playbooks](https://github.com/rune004/Ansible){ .md-button }
-
 ## Windows Test Environment
 
 ![ansible+windows](img/Ansible-Get-Started-Windows.png)
+
+[Our Pre-made Playbooks](https://github.com/rune004/Ansible){ .md-button }
 
 ??? warning "Configure templates"
 
