@@ -2,7 +2,7 @@
 
 ## Windows Test Environment
 
-![ansible+windows](img/Ansible-Get-Started-Windows.png)
+![ansible+windows](../img/Ansible-Get-Started-Windows.png)
 
 [Our Pre-made Playbooks](https://github.com/rune004/Ansible){ .md-button }
 
@@ -266,7 +266,7 @@
 
 ## LXC Container
 
-![proxmox+ansible](img/Ansible-Proxmox.png)
+![proxmox+ansible](../img/Ansible-Proxmox.png)
 
 ??? warning "Set Your Variables"
 

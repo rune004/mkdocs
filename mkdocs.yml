@@ -20,7 +20,7 @@ nav:
     - Documentation:
       - Ansible Documentation:
         - 'What is Ansible?': 'ansible/ansible.md'
-        - Automated Test Environment: 
+        - Getting Started With Ansible: 
           - 'Setup/Install Ansible': 'ansible/ansible-setup.md'
           - 'Configure a Ansible playbook': 'ansible/ansible-playbook.md'
           - 'Use a Ansible-playbook': 'ansible/ansible-use.md'
@@ -37,7 +37,8 @@ nav:
       - Unraid Documentation:
         - 'What is Unraid': 'unraid/unraid.md'
         - Unraid Getting Started:
-          - 'Cloudflare Tunnel': 'unraid/unraid-cloudflared.md'  
+          - 'Cloudflare Tunnel': 'unraid/unraid-cloudflared.md' 
+          - 'Nginx Proxy Manager': 'unraid/nginx-proxy-manager.md' 
     - Blog:
       - 'Blog Overview': 'blog/blog.md'
       - Servers: 
